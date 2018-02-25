@@ -1,0 +1,75 @@
+html{
+    background-image:  url(" money.jpg");
+    /* background-size: 150%;    */
+    background-position:center;  
+}
+h1{
+    background: maroon;
+    color:white;
+    text-align: center;
+
+}
+#startContainer{
+    display: grid;
+    grid-template-columns: auto 50% auto;
+    
+    background: maroon;
+    color:white;
+    text-align: center;
+    padding: 12.5%;
+    margin-top: 10%;
+}
+#start{
+    background: rgb(68, 61, 61);
+    color: maroon;
+    text-align: center;
+    padding: 3%;
+    border: 3px solid black;
+}
+#start:hover{
+    background-image:  url(" money.jpg");
+    color: black;
+    font-weight: bolder;
+    /* background: rgb(5, 104, 5); */
+}
+#timer{
+    position: fixed;
+    
+    background: rgb(229, 245, 15);
+    border: solid maroon 3px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(7, 7, 7);
+    top:5%;
+    top:10%;
+    
+}
+#questions{
+    background: maroon;
+    width: 80%;
+    text-align: center;
+    margin: 1em;
+    padding: 0.5em;
+    color:white;
+    margin: auto;
+    margin-bottom: 1em;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 1em;
+    margin-top: 8%;
+}
+.questionsClass{
+    background: black;
+}
+#score{
+    background: rgb(68, 61, 61);
+    color: rgb(240, 227, 227);
+    text-align: center;
+    margin: auto;
+    padding: 3%;
+    border: 3px solid black;
+    width: 25%;
+    font-size: 2em;
+}
